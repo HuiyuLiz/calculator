@@ -1,10 +1,13 @@
 # JavaScript 題目篇 - 新手 JS 地下城
-3F - 計算機
+
+ ![image]( https://github.com/HuiyuLiz/calculator/blob/master/calculator.png)  
+ 3F - 計算機
  <a href="https://huiyuliz.github.io/calculator/" target="_blank">完成品</a>、
  <a href="https://github.com/HuiyuLiz/calculator/blob/master/src/components/Calculator.vue" target="_blank">程式碼</a>
  
- 使用 Vue.js 進行破關，計算機畫面用 CSS Grid 排版。   
- while - 當輸入數字過多時，進行字體大小伸縮。  
+ 使用 Vue.js 進行破關，計算機畫面用 CSS Grid 排版。    
+ 
+ ## Filters
  [Vue.js Filters](https://vuejs.org/v2/guide/filters.html) - 搭配 [toLocaleString](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString) 來將數字格式轉換成千分位。  
 ```html
  <div>{{ 3500000 | currency }}</div> 
